@@ -466,6 +466,9 @@ details[open] summary {
     border-bottom: 1px solid #d4d4d4;
     margin-bottom: 10px;
 }
+details > summary {
+    list-style: none;
+  }
 
 /*loading spinner*/
 /* Center the loader */
@@ -517,3 +520,28 @@ details[open] summary {
   #myDiv {
     display: none;
   }
+
+  .plus {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .plus::before {
+    content: "+";
+  }
+  
+
+  .bar div { 
+    float:left; 
+    color:white; 
+    padding:1ex; 
+    margin:0;
+    text-align:center; 
+    font-family:sans-serif; }
+
+
