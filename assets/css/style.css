@@ -608,3 +608,10 @@ a.button3:hover {
         margin: 0.2em auto;
     }
 }
+
+
+@media (max-width: 768px) {
+    .datein {
+        margin-top: 1em;
+    }
+}
